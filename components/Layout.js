@@ -5,7 +5,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <Navbar />
-      <div>{children}</div>
+      <div className='w-max-full min-h-screen p-5'>{children}</div>
       <Footer />
     </>
   );
