@@ -13,6 +13,7 @@ module.exports = {
           secondary: '#9E2A2B',
           gray: '#D9D9D6',
           green: '1DB954',
+          footer : '#303030'
         },
       },
     },
