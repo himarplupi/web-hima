@@ -1,7 +1,3 @@
 export default function Home() {
-  return (
-    <div>
-      cek cek
-    </div>
-  );
+  return <div>conten here</div>;
 }
