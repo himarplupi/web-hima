@@ -35,6 +35,8 @@ module.exports = {
       backgroundImage: {
         'web-color-orange-gradient':
           'linear-gradient(100.48deg, rgba(253, 112, 57, 0.7) 0%, rgba(255, 60, 61, 0.7) 100%, rgba(255, 60, 61, 0.7) 100%);',
+        'web-color-red-gradient':
+          'linear-gradient(100.48deg, #FD7039 0%, #FF3C3D 100%)',
       },
 
       borderColor: {
