@@ -5,12 +5,32 @@ import spaceIllustration from '../assets/image/space-illustration.png';
 
 const Card = ({
   url = '/',
-  title = 'Judul Blog',
-  category = 'Kategori',
+  type = 'blog' || 'event',
+  title = 'Card Title',
+  category = 'Category',
   imageSrc = spaceIllustration || '',
-  author = 'Admin',
-  createdDate = new Date(2022, 11, 19),
+  author = 'Author',
+  createdDate = new Date(),
 }) => {
+  const cardFooterContent = {
+    blog: (
+      <>
+        Oleh <b>{author}</b> -{' '}
+        {createdDate.toLocaleString('id-ID', {
+          day: 'numeric',
+          month: 'long',
+          year: 'numeric',
+        })}
+      </>
+    ),
+
+    event: createdDate.toLocaleString('id-ID', {
+      day: 'numeric',
+      month: 'long',
+      year: 'numeric',
+    }),
+  };
+
   return (
     <>
       {/* Blog Card */}
@@ -38,12 +58,7 @@ const Card = ({
           </Link>
 
           <p className='text-sm leading-[1.063rem]'>
-            Oleh <b>{author}</b> -
-            {createdDate.toLocaleString('id-ID', {
-              day: 'numeric',
-              month: 'long',
-              year: 'numeric',
-            })}
+            {cardFooterContent[type]}
           </p>
         </div>
       </div>
