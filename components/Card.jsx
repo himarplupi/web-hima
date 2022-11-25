@@ -39,7 +39,8 @@ const Card = ({
           <Image
             src={imageSrc}
             alt={`${title} Thumbnail`}
-            className='h-[180px] object-cover object-center'
+            priority
+            className='w-full h-[180px] object-cover object-center'
           />
         </Link>
 
