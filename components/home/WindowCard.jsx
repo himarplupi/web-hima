@@ -15,10 +15,10 @@ const WindowCard = ({
           <h4 className='text-base text-white'>{title}</h4>
 
           {/* Triple Dot */}
-          <div className='flex flex-row gap-x-[9.23px] absolute left-[50px] top-1/2 -translate-y-1/2'>
-            <div className='w-[13.85px] aspect-square rounded-full bg-dot-red border-[0.5px] border-solid border-dot-red '></div>
-            <div className='w-[13.85px] aspect-square rounded-full bg-dot-yellow border-[0.5px] border-solid border-dot-yellow '></div>
-            <div className='w-[13.85px] aspect-square rounded-full bg-dot-green border-[0.5px] border-solid border-dot-green '></div>
+          <div className='flex flex-row md:gap-x-[9.23px] gap-x-1 absolute left-10 top-1/2 -translate-y-1/2'>
+            <div className='w-[10px] md:w-[13.85px] aspect-square rounded-full bg-dot-red border-[0.5px] border-solid border-dot-red '></div>
+            <div className='w-[10px] md:w-[13.85px] aspect-square rounded-full bg-dot-yellow border-[0.5px] border-solid border-dot-yellow '></div>
+            <div className='w-[10px] md:w-[13.85px] aspect-square rounded-full bg-dot-green border-[0.5px] border-solid border-dot-green '></div>
           </div>
         </div>
 

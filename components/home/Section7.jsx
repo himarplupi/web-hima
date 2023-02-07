@@ -13,17 +13,17 @@ const Section7 = () => (
         alt='Program Kerja'
         priority
         width={550}
-        className='h-[450px] object-cover object-center rounded-[20px]'
+        className='h-[450px] object-cover object-center rounded-[20px] md:block hidden'
       />
 
       {/* Content */}
       <div className='w-full max-w-[716px] flex flex-col gap-y-[50px]'>
         <div className='space-y-[30px] text-white'>
-          <h2 className='font-semibold text-5xl leading-[3.625rem]'>
+          <h2 className='font-semibold text-4xl leading-[3.625rem]'>
             FORASI (Form Aspirasi)
           </h2>
 
-          <p className='text-2xl leading-[150%]'>
+          <p className='text-lg leading-[150%]'>
             Memiliki kritik dan saran untuk HIMARPL? Kirim masukan anda kepada
             kami melalui Form Aspirasi.
           </p>

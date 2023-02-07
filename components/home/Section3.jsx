@@ -13,17 +13,17 @@ const Section3 = () => (
         alt='Program Kerja'
         priority
         width={550}
-        className='h-[450px] object-cover object-center rounded-[20px]'
+        className='md:block hidden h-[450px] object-cover object-center rounded-[20px]'
       />
 
       {/* Content */}
       <div className='w-full max-w-[716px] flex flex-col gap-y-[50px]'>
         <div className='space-y-[30px] text-white'>
-          <h2 className='font-semibold text-5xl leading-[3.625rem]'>
+          <h2 className='font-semibold text-4xl leading-[3.625rem]'>
             Program Kerja
           </h2>
 
-          <p className='text-2xl leading-[150%]'>
+          <p className='text-lg leading-[150%]'>
             Penasaran dengan proker yang ada pada HIMARPL periode ini? Silahkan
             cek daftar program kerja Kabinet Explora.
           </p>

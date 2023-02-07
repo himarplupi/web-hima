@@ -31,13 +31,13 @@ const Home = () => {
         <Section3 />
 
         {/* Section 4 */}
-        <Section4 />
+        {/* <Section4 /> */}
 
         {/* Section 5 */}
         <Section5 />
 
         {/* Section 6 */}
-        <Section6 />
+        {/* <Section6 /> */}
 
         {/* Section 7 */}
         <Section7 />

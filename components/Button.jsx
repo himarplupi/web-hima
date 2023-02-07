@@ -3,7 +3,7 @@ import Link from 'next/link';
 const Button = ({
   text = 'Button Text',
   type = 'button' || 'link' || 'anchor',
-  theme = 'dark' || 'light' || 'greem',
+  theme = 'dark' || 'light' || 'green' || 'gradient',
   size = 'normal' || 'small',
   href = '',
   onClick = (e = new Event()) => {},
@@ -14,6 +14,7 @@ const Button = ({
     dark: 'bg-web-color-dark-gray text-white',
     light: 'bg-white text-brand-footer',
     green: 'bg-brand-green text-white',
+    gradient: 'bg-web-color-red-gradient text-white'
   };
 
   const sizeClass = {
