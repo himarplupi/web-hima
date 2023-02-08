@@ -1,5 +1,5 @@
 import React from 'react';
-import { Disclosure } from '@headlessui/react';
+import { Disclosure, Transition } from '@headlessui/react';
 
 const visiMisiContent = {
   badanEksekutif: {
@@ -37,14 +37,14 @@ const VisiMisiContent = ({ division }) => {
 
   const { visi, misi = [] } = visiMisiContent[type];
   return (
-    <Disclosure as="div" className="mb-2">
+    <Disclosure as="div" className="mb-2 transition ease-in-out">
       {({ open }) => (
         <>
           <Disclosure.Button
             as="div"
-            className="font-medium mb-4 text-xl cursor-pointer p-4 rounded-[20px] bg-white text-brand-footer"
+            className="font-medium mb-4 text-lg cursor-pointer p-4 rounded-xl bg-white text-brand-footer"
           >
-            <h3 className='flex flex-row justify-between'>
+            <h3 className="flex flex-row justify-between">
               <span>{title}</span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -52,9 +52,7 @@ const VisiMisiContent = ({ division }) => {
                 viewBox="0 0 24 24"
                 strokeWidth={1.5}
                 stroke="currentColor"
-                className={`w-6 h-6 ${
-                  open ? 'rotate-180 transform' : ''
-                }`}
+                className={`w-6 h-6 ${open ? 'rotate-180 transform' : ''}`}
               >
                 <path
                   strokeLinecap="round"
@@ -64,15 +62,24 @@ const VisiMisiContent = ({ division }) => {
               </svg>
             </h3>
           </Disclosure.Button>
-          <Disclosure.Panel as="div" className="leading-8">
-            <p>
-              <strong>Visi: </strong> {visi}
-            </p>
-            <p>
-              <strong>Misi: </strong>
-              {misi.map((misi, index) => `${index + 1}). ${misi} `)}
-            </p>
-          </Disclosure.Panel>
+          <Transition
+            enter="transition duration-500 ease-in-out"
+            enterFrom="transform scale-95 opacity-0"
+            enterTo="transform scale-100 opacity-100"
+            leave="transition duration-75 ease-in-out"
+            leaveFrom="transform scale-100 opacity-100"
+            leaveTo="transform scale-95 opacity-0"
+          >
+            <Disclosure.Panel as="div" className="leading-8">
+              <p>
+                <strong>Visi: </strong> {visi}
+              </p>
+              <p>
+                <strong>Misi: </strong>
+                {misi.map((misi, index) => `${index + 1}). ${misi} `)}
+              </p>
+            </Disclosure.Panel>
+          </Transition>
         </>
       )}
     </Disclosure>

@@ -32,19 +32,9 @@ const Section5 = () => (
             className='w-full max-w-[680px] grid place-items-center bg-[#282828] rounded-[20px] shadow-[0px_0px_4px_rgba(0,0,0,0.04),0px_8px_16px_rgba(0,0,0,0.08)]'
             key={index}
           >
-            <iframe style={{borderRadius: '12px'}} src={podcast} width={"100%"} height={"152"} frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <iframe style={{borderRadius: '12px'}} src={podcast} width={"100%"} height={"152"} frameBorder="0" allowFullScreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
           </div>
         ))}
-        {/* {[...Array(4)].map((item, index) => (
-          <div
-            key={index}
-            className='w-full max-w-[680px] h-[352px] grid place-items-center bg-[#282828] rounded-[20px] shadow-[0px_0px_4px_rgba(0,0,0,0.04),0px_8px_16px_rgba(0,0,0,0.08)]'
-          >
-            <h3 className='font-bold text-5xl leading-[3.625rem] text-white opacity-20'>
-              aset spotify
-            </h3>
-          </div>
-        ))} */}
       </div>
 
       <Button
