@@ -23,7 +23,7 @@ const Join = () => {
       {/* END: Join HIMARPL */}
 
       {/* Image */}
-      <div className='w-[550px] h-[550px] bg-brand-gray md:block hidden'></div>
+      <div className='w-[550px] h-[550px] bg-brand-gray lg:block hidden'></div>
     </section>
   </div>
   )

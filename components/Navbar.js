@@ -22,8 +22,8 @@ const menuItems = [
 
 const Navbar = () => {
   return (
-    <header className="fixed z-50 md:absolute md:top-7 md:left-1/2 md:-translate-x-2/4">
-      <nav className="navbar bg-brand-footer text-white h-[50px] md:w-[1000px] w-screen md:rounded-lg flex px-6 py-8 justify-between items-center">
+    <header className="fixed z-50 md:absolute lg:top-7 lg:left-1/2 lg:-translate-x-2/4">
+      <nav className="navbar bg-brand-footer text-white h-[50px] lg:w-[1000px] w-screen lg:rounded-lg flex px-6 py-8 justify-between items-center">
         <Image src={logoMark} alt="Logo HIMARPL" width={150} height={50} />
 
         <Menu>

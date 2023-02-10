@@ -19,7 +19,7 @@ const Description = () => {
         {/* END: Content */}
 
         {/* START: Illustration */}
-        <div className="bg-[#D9D9D9] w-[600px] h-[300px] rounded-[20px] md:block hidden"></div>
+        <div className="bg-[#D9D9D9] w-[600px] h-[300px] rounded-[20px] lg:block hidden"></div>
         {/* END: Illustration */}
       </section>
     </div>

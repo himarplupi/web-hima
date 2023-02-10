@@ -13,7 +13,7 @@ const Section3 = () => (
         alt='Program Kerja'
         priority
         width={550}
-        className='md:block hidden h-[450px] object-cover object-center rounded-[20px]'
+        className='lg:block hidden h-[450px] object-cover object-center rounded-[20px]'
       />
 
       {/* Content */}

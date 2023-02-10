@@ -40,7 +40,7 @@ const History = () => {
         <div className="w-full max-w-[716px] flex flex-col">
           {kabinets.map((kabinet, index) => (
             <div
-              className="w-full bg-white text-brand-footer text-lg flex flex-row justify-between items-center rounded-xl py-2 px-4 mb-4"
+              className="w-full bg-white text-brand-footer lg:text-lg text-base flex flex-row justify-between items-center rounded-xl py-2 px-4 mb-4"
               key={index}
             >
               <div className="w-14">

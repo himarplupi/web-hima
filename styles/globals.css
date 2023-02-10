@@ -30,6 +30,9 @@ svg path {
 
 /* Tailwind CSS */
 @layer components {
+  html {
+    @apply scroll-smooth
+  }
   .logo-himarpl path {
     @apply hover:fill-white
   }
