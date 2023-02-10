@@ -28,6 +28,17 @@ svg path {
   -webkit-text-fill-color: transparent;
 }
 
+/* Tailwind CSS */
+@layer components {
+  .logo-himarpl path {
+    @apply hover:fill-white
+  }
+
+  .logo-kabinet path {
+    @apply hover:fill-brand-footer
+  }
+}
+
 @media (prefers-color-scheme: white) {
   html {
     color-scheme: white;

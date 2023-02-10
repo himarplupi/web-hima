@@ -103,7 +103,7 @@ const LogoHimaRpl = () => {
         viewBox="0 0 350 300"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
-        className="md:w-[350px] md:h-[300px] w-[260px]"
+        className="md:w-[350px] w-[260px] logo-himarpl"
       >
         <path
           d="M89.6829 72.183L216.342 0L343 72.1829L274.882 111.865L216.342 77.2787L157.827 111.85L89.6829 72.183Z"

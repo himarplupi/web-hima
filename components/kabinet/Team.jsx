@@ -4,7 +4,7 @@ import Button from '../Button'
 
 const Team = () => {
   return (
-    <div className="w-full px-5 py-[60px] rounded-[20px] bg-web-color-orange-gradient grid place-items-center mb-4">
+    <div className="w-full px-5 py-[60px] rounded-[20px] bg-web-color-orange-gradient grid place-items-center">
       <section className="w-full flex flex-row justify-center items-center xl:max-w-8xl">
         <div className="w-full grid md:grid-cols-2 md:grid-rows-1 gap-[30px]">
           <div

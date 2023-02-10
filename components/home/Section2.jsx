@@ -21,7 +21,7 @@ const Section2 = () => (
           </p>
         </div>
 
-        <Button text='Cari Tahu #KabinetExplora' type='link' href='/' />
+        <Button text='Cari Tahu #KabinetExplora' type='link' href='/kabinet' />
       </div>
     </section>
   </div>

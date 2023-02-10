@@ -10,14 +10,16 @@ import { HimaRplProvider } from '../components/logo/context/HimaRplContext';
 const About = () => {
   return (
     <>
-      <HimaRplProvider>
-        <Hero title={'Tentang HIMARPL'} />
-        <Description />
-        <VisiMisi />
-        <FilosofiLogo />
-        <History />
-        <Join />
-      </HimaRplProvider>
+      <main className='w-full flex flex-col gap-y-5'>
+        <HimaRplProvider>
+          <Hero title={'Tentang HIMARPL'} />
+          <Description />
+          <VisiMisi />
+          <FilosofiLogo />
+          <History />
+          <Join />
+        </HimaRplProvider>
+      </main>
     </>
   );
 };

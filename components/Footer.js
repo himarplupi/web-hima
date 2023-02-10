@@ -14,20 +14,20 @@ const links = [
   { url: '#', title: 'Galeri' },
 ];
 const organisasi = [
-  { url: '#', title: 'Tentang HIMARPL' },
-  { url: '#', title: 'Kabinet Explora' },
-  { url: '#', title: 'Badan Eksekutif' },
-  { url: '#', title: 'Dewan Perwakilan' },
+  { url: '/about', title: 'Tentang HIMARPL' },
+  { url: '/kabinet', title: 'Kabinet Explora' },
+  { url: '/team#be', title: 'Badan Eksekutif' },
+  { url: '/team#dp', title: 'Dewan Perwakilan' },
 ];
 const upi = [
-  { url: '#', title: 'Website UPI' },
-  { url: '#', title: 'Website RPL' },
-  { url: '#', title: 'BEM UPI Cibiru' },
+  { url: 'https://www.upi.edu/', title: 'Website UPI' },
+  { url: 'https://rpl.upi.edu/', title: 'Website RPL' },
+  { url: 'https://www.instagram.com/bemupicibiru/', title: 'BEM UPI Cibiru' },
 ];
 const socmed = [
-  { url: '#', src: EmailIcon },
-  { url: '#', src: InstagramIcon },
-  { url: '#', src: SpotifyIcon },
+  { url: 'mailto:himarpl@upi.edu', src: EmailIcon },
+  { url: 'https://instagram.com/himarpl', src: InstagramIcon },
+  { url: 'https://open.spotify.com/show/3U3iuQcBYyzC5c13UieYFQ', src: SpotifyIcon },
 ];
 const Footer = () => {
   return (
@@ -37,12 +37,15 @@ const Footer = () => {
           <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10'>
             <div className='block col-span-2'>
               <Image src={logo} alt='Logo' className='mb-5' />
-              <p className='mb-10'>
-                Tincidunt mi, amet dignissim ipsum massa integer. Auctor felis,
-                et cursus mattis lorem scelerisque eu justo. Enim nunc quam id
-                facilisis amet. Vitae dolor tempor.
-              </p>
-              <p>© 2022 HIMARPL</p>
+              <div className='mb-10 leading-7'>
+                <p>
+                  Universitas Pendidikan Indonesia - Kampus Cibiru
+                </p>
+                <p>
+                  Cibiru Wetan, Kec. Cileunyi, Kabupaten Bandung, Jawa Barat 40625
+                </p>
+              </div>
+              <p>© {new Date().getFullYear()} HIMARPL</p>
               <span className='text-xs'>
                 Made With ❤ by Departemen Komunikasi dan Informasi{' '}
               </span>
@@ -80,7 +83,7 @@ const Footer = () => {
           </div>
           <div className='flex justify-end gap-4'>
             {socmed.map((item, id) => (
-              <Link key={id} href={item.url}>
+              <Link key={id} href={item.url} target='_blank'>
                 <Image src={item.src} alt={item.url} />
               </Link>
             ))}

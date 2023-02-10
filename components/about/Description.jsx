@@ -2,7 +2,7 @@ import React from 'react';
 
 const Description = () => {
   return (
-    <div className="w-full px-6 py-24 h-fit rounded-[20px] bg-web-color-light-gray grid place-items-center mb-4">
+    <div className="w-full px-6 py-24 h-fit rounded-[20px] bg-web-color-light-gray grid place-items-center">
       <section className="section-3-content w-full flex flex-row justify-between items-center gap-x-[100px] xl:max-w-8xl">
         {/* START: Content */}
         <div className="w-full max-w-[716px] flex flex-col gap-y-[50px]">

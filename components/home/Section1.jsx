@@ -24,7 +24,7 @@ const Section1 = () => (
       <div className='button-container flex flex-row justify-center flex-wrap gap-x-[10px] gap-y-[10px]'>
         <Button text='Tentang HIMARPL' type='link' href='/about' />
 
-        <Button text='Kontak Kami' type='link' href='/contact' theme='light' />
+        <Button text='Kontak Kami' type='link' href='mailto:himarpl@upi.edu' theme='light' />
       </div>
     </section>
   </div>

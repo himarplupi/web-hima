@@ -29,7 +29,7 @@ const Section7 = () => (
           </p>
         </div>
 
-        <Button text='Form Aspirasi RPL' type='link' href='/forasi' />
+        <Button text='Form Aspirasi RPL' type='link' href='https://ngl.link/himarpl' target='_blank' />
       </div>
     </section>
   </div>

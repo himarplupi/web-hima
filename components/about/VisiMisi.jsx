@@ -88,7 +88,7 @@ const VisiMisiContent = ({ division }) => {
 
 const VisiMisi = () => {
   return (
-    <div className="w-full px-5 py-[60px] rounded-[20px] bg-web-color-orange-gradient grid place-items-center mb-4">
+    <div className="w-full px-5 py-[60px] rounded-[20px] bg-web-color-orange-gradient grid place-items-center">
       <section className="section-3-content w-full flex flex-row justify-between items-center gap-x-[100px] xl:max-w-8xl">
         {/* START: Illustration */}
         <div className="bg-[#D9D9D9] w-[600px] h-[300px] rounded-[20px] md:block hidden"></div>

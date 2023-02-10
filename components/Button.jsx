@@ -6,6 +6,7 @@ const Button = ({
   theme = 'dark' || 'light' || 'green' || 'gradient',
   size = 'normal' || 'small',
   href = '',
+  target = '_self',
   onClick = (e = new Event()) => {},
 }) => {
   const baseClass = 'block w-fit rounded-[10px] font-semibold text-center';
@@ -43,6 +44,7 @@ const Button = ({
         href={href}
         onClick={onClick}
         className={`${baseClass} ${sizeClass[size]} ${themeClass[theme]}`}
+        target={target}
       >
         {text}
       </Link>

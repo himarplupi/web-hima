@@ -5,9 +5,9 @@ import { useHimaRplContext } from '../logo/context/HimaRplContext';
 
 const FilosofiLogo = () => {
   const { title, description } = useHimaRplContext();
-  console.log(title.value);
+
   return (
-    <div className="w-full px-5 py-[60px] rounded-[20px] bg-web-color-dark-gray grid place-items-center mb-4">
+    <div className="w-full px-5 py-[60px] rounded-[20px] bg-web-color-dark-gray grid place-items-center">
       <section className="w-full flex flex-col items-center gap-y-[40px] xl:max-w-8xl">
         <div className="space-y-[20px] text-center ">
           <h2

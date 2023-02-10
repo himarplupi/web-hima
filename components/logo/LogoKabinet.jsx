@@ -91,7 +91,7 @@ const LogoKabinet = () => {
       height="300"
       viewBox="0 0 829 712"
       fill="none"
-      className="md:w-[350px] w-[260px]"
+      className="md:w-[350px] w-[260px] logo-kabinet"
     >
       <g clipPath="url(#clip0_38_58)" className="path-group" id="logogram">
         <path

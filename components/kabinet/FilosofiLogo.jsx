@@ -6,7 +6,7 @@ const FilosofiLogo = () => {
   const { title, description } = useKabinetContext();
 
   return (
-    <div className="w-full px-5 py-[60px] rounded-[20px] bg-web-color-light-gray grid place-items-center mb-4">
+    <div className="w-full px-5 py-[60px] rounded-[20px] bg-web-color-light-gray grid place-items-center">
       <section className="w-full flex flex-col items-center gap-y-[40px] xl:max-w-8xl text-brand-footer">
         <div className="space-y-[20px] text-center ">
           <h2 className="font-semibold text-4xl leading-[3.625rem]">
