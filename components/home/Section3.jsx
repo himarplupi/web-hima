@@ -2,30 +2,31 @@ import Image from 'next/image';
 
 import Button from '../Button';
 
-import spaceIllustration from '../../assets/image/space-illustration.png';
+import ProkerImage from '../../assets/image/illustrations/proker.png';
 
-const Section3 = () => (
+const Section3 = ({ content }) => (
   <div className='w-full px-5 py-[60px] rounded-[20px] bg-web-color-orange-gradient grid place-items-center'>
-    <section className='section-3-content w-full flex flex-row justify-between items-center gap-x-[100px] xl:max-w-8xl'>
+    <section className='section-3-content w-full flex flex-row justify-between items-center xl:max-w-8xl'>
       {/* Image */}
-      <Image
-        src={spaceIllustration}
-        alt='Program Kerja'
-        priority
-        width={550}
-        className='lg:block hidden h-[450px] object-cover object-center rounded-[20px]'
-      />
+      <div className='w-full sm:flex align-middle justify-center hidden'>
+        <Image
+          src={ProkerImage}
+          alt='Program Kerja'
+          priority
+          width={260}
+          className='object-cover object-center'
+        />
+      </div>
 
       {/* Content */}
       <div className='w-full max-w-[716px] flex flex-col gap-y-[50px]'>
         <div className='space-y-[30px] text-white'>
           <h2 className='font-semibold text-4xl leading-[3.625rem]'>
-            Program Kerja
+            {content?.title}
           </h2>
 
-          <p className='text-lg leading-[150%]'>
-            Penasaran dengan proker yang ada pada HIMARPL periode ini? Silahkan
-            cek daftar program kerja Kabinet Explora.
+          <p className='text-lg justify-start leading-[150%] opacity-90'>
+            {content?.description}
           </p>
         </div>
 

@@ -8,8 +8,13 @@ import Section4 from '../components/home/Section4';
 import Section5 from '../components/home/Section5';
 import Section6 from '../components/home/Section6';
 import Section7 from '../components/home/Section7';
+import getContent from '../utils/getContent';
 
-const Home = () => {
+export const getServerSideProps = () => getContent('home')
+
+const Home = ({ content }) => {
+  const { hero, kabinet, proker, repod, forasi } = content;
+
   return (
     <Fragment>
       <Head>
@@ -22,25 +27,25 @@ const Home = () => {
 
       <main className='w-full flex flex-col gap-y-5'>
         {/* Section 1 */}
-        <Section1 />
+        <Section1 content={hero} />
 
         {/* Section 2 */}
-        <Section2 />
+        <Section2 content={kabinet} />
 
         {/* Section 3 */}
-        <Section3 />
+        <Section3 content={proker} />
 
         {/* Section 4 */}
         {/* <Section4 /> */}
 
         {/* Section 5 */}
-        <Section5 />
+        <Section5 content={repod} />
 
         {/* Section 6 */}
         {/* <Section6 /> */}
 
         {/* Section 7 */}
-        <Section7 />
+        <Section7 content={forasi} />
       </main>
     </Fragment>
   );

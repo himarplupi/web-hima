@@ -1,7 +1,7 @@
 import React from 'react';
 
 import LogoHimaRpl from '../logo/LogoHimaRpl';
-import { useHimaRplContext } from '../logo/context/HimaRplContext';
+import { useLogoContext as useHimaRplContext } from '../logo/context/LogoContext';
 
 const FilosofiLogo = () => {
   const { title, description } = useHimaRplContext();

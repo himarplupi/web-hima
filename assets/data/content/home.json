@@ -1,0 +1,33 @@
+{
+  "hero": {
+    "title": "Himpunan Mahasiswa Rekayasa Perangkat Lunak",
+    "subtitle": "Universitas Pendidikan Indonesia"
+  },
+  "kabinet": {
+    "title": "Kabinet Explora",
+    "image": "foto-kabinet-explora.jpg",
+    "description": "Nama dari kabinet yang kini sedang menjalankan masa kerjanya pada periode 22/23 ini yang dipimpin oleh Ali Aziz Fadilah dan Bagus Subagja."
+  },
+  "proker": {
+    "title": "Program Kerja",
+    "description": "Penasaran dengan proker yang ada pada HIMARPL periode ini? Silahkan cek daftar program kerja Kabinet Explora."
+  },
+  "repod": {
+    "title": "Rekan Podcast",
+    "description": "Yuk, dengerin obrolan-obrolan seru dari HIMARPL di Rekan Podcast!",
+    "podcasts": [
+      "https://open.spotify.com/embed/episode/3odJmBOiRM92lIwBfC27XE",
+      "https://open.spotify.com/embed/episode/42gr7Zx7vLKouI3N2Y03tN",
+      "https://open.spotify.com/embed/episode/3lqizmp4SfFuNhs0kLGKgd",
+      "https://open.spotify.com/embed/episode/36v00JuCNGAJelZIbEwTYu"
+    ]
+  },
+  "forasi": {
+    "title": "FORASI [Forum Aspirasi]",
+    "description": "Forum Aspirasi HIMARPL adalah forum yang dibentuk untuk membahas berbagai hal yang berkaitan dengan aspirasi mahasiswa RPL.",
+    "cta": {
+      "text": "Sampaikan Aspirasimu",
+      "link": "https://ngl.link/himarpl"
+    }
+  }
+}

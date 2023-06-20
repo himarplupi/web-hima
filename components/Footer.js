@@ -16,8 +16,8 @@ const links = [
 const organisasi = [
   { url: '/about', title: 'Tentang HIMARPL' },
   { url: '/kabinet', title: 'Kabinet Explora' },
-  { url: '/team#be', title: 'Badan Eksekutif' },
-  { url: '/team#dp', title: 'Dewan Perwakilan' },
+  { url: '/team/be', title: 'Badan Eksekutif' },
+  { url: '/team/dp', title: 'Dewan Perwakilan' },
 ];
 const upi = [
   { url: 'https://www.upi.edu/', title: 'Website UPI' },

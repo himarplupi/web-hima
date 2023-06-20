@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import $ from 'jquery';
 
-import { useHimaRplContext } from './context/HimaRplContext';
+import { useLogoContext as useHimaRplContext } from './context/LogoContext';
 
 const philosophyLogo = {
   hexagon:
@@ -12,88 +12,87 @@ const philosophyLogo = {
 };
 
 const LogoHimaRpl = () => {
-  const { handleTitle } = useHimaRplContext().title;
-  const { handleDescription } = useHimaRplContext().description;
-
-  const handleHexagonLogo = () => {
-    $('.logo1').click(function (e) {
-      $('.logo1:nth-child(1)').css({
-        fill: '#d9d9d6',
-        transition: 'all 0.2 ease-in-out',
-        cursor: 'pointer',
-      });
-      $('.logo1:nth-child(2),.logo1:nth-child(3)').css({
-        fill: '#a5232d',
-        transition: 'all 0.2 ease-in-out',
-        cursor: 'pointer',
-      });
-      $('.logo1:nth-child(4),.logo1:nth-child(5)').css({
-        fill: '#e77843',
-        transition: 'all 0.2 ease-in-out',
-        cursor: 'pointer',
-      });
-      $('.logo3,.logo2').css({
-        fill: '#434343',
-        transition: 'all 0.2 ease-in-out',
-      });
-
-      // ADD title & description logo
-      handleTitle('Hexagon');
-      handleDescription(philosophyLogo.hexagon);
-    });
-  };
-
-  const handleNetworkLogo = () => {
-    $('.logo3').click(function () {
-      $('.logo3').css({
-        fill: '#a5232d',
-        transition: 'all 0.2 ease-in-out',
-        cursor: 'pointer',
-      });
-      $('.logo2,.logo1').css({
-        fill: '#434343',
-        transition: 'all 0.2 ease-in-out',
-      });
-
-      // ADD title & description logo
-      handleTitle('Network (Connection)');
-      handleDescription(philosophyLogo.network);
-    });
-  };
-
-  const handleToolsLogo = () => {
-    $('.logo2').click(function () {
-      $('#logo21').css({
-        fill: '#a5232d',
-        transition: 'all 0.2 ease-in-out',
-        cursor: 'pointer',
-      });
-      $('#logo22').css({
-        fill: '#e77843',
-        transition: 'all 0.2 ease-in-out',
-        cursor: 'pointer',
-      });
-      $('#logo23').css({
-        fill: '#d9d9d6',
-        transition: 'all 0.2 ease-in-out',
-        cursor: 'pointer',
-      });
-      $('.logo3,.logo1').css({
-        fill: '#434343',
-        transition: 'all 0.2 ease-in-out',
-      });
-
-      // ADD title & description logo
-      handleTitle('Alat');
-      handleDescription(philosophyLogo.tool);
-    });
-  };
+  const { title, description } = useHimaRplContext();
 
   useEffect(() => {
+    const handleHexagonLogo = () => {
+      $('.logo1').click(function (e) {
+        $('.logo1:nth-child(1)').css({
+          fill: '#d9d9d6',
+          transition: 'all 0.2 ease-in-out',
+          cursor: 'pointer',
+        });
+        $('.logo1:nth-child(2),.logo1:nth-child(3)').css({
+          fill: '#a5232d',
+          transition: 'all 0.2 ease-in-out',
+          cursor: 'pointer',
+        });
+        $('.logo1:nth-child(4),.logo1:nth-child(5)').css({
+          fill: '#e77843',
+          transition: 'all 0.2 ease-in-out',
+          cursor: 'pointer',
+        });
+        $('.logo3,.logo2').css({
+          fill: '#434343',
+          transition: 'all 0.2 ease-in-out',
+        });
+  
+        // ADD title & description logo
+        title.setValue('Hexagon');
+        description.setValue(philosophyLogo.hexagon);
+      });
+    };
+  
+    const handleNetworkLogo = () => {
+      $('.logo3').click(function () {
+        $('.logo3').css({
+          fill: '#a5232d',
+          transition: 'all 0.2 ease-in-out',
+          cursor: 'pointer',
+        });
+        $('.logo2,.logo1').css({
+          fill: '#434343',
+          transition: 'all 0.2 ease-in-out',
+        });
+  
+        // ADD title & description logo
+        title.setValue('Network (Connection)');
+        description.setValue(philosophyLogo.network);
+      });
+    };
+  
+    const handleToolsLogo = () => {
+      $('.logo2').click(function () {
+        $('#logo21').css({
+          fill: '#a5232d',
+          transition: 'all 0.2 ease-in-out',
+          cursor: 'pointer',
+        });
+        $('#logo22').css({
+          fill: '#e77843',
+          transition: 'all 0.2 ease-in-out',
+          cursor: 'pointer',
+        });
+        $('#logo23').css({
+          fill: '#d9d9d6',
+          transition: 'all 0.2 ease-in-out',
+          cursor: 'pointer',
+        });
+        $('.logo3,.logo1').css({
+          fill: '#434343',
+          transition: 'all 0.2 ease-in-out',
+        });
+  
+        // ADD title & description logo
+        title.setValue('Alat');
+        description.setValue(philosophyLogo.tool);
+      });
+    };
+    
     handleHexagonLogo();
     handleNetworkLogo();
     handleToolsLogo();
-  }, []);
+  }, [title, description]);
 
   return (
     <>
@@ -103,7 +102,7 @@ const LogoHimaRpl = () => {
         viewBox="0 0 350 300"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
-        className="md:w-[350px] w-[260px] logo-himarpl"
+        className="md:w-[350px] w-10/12 logo-himarpl"
       >
         <path
           d="M89.6829 72.183L216.342 0L343 72.1829L274.882 111.865L216.342 77.2787L157.827 111.85L89.6829 72.183Z"

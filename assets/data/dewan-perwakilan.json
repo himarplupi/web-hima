@@ -1,0 +1,384 @@
+[
+	{
+		"department-name": "Pimpinan",
+		"members": [
+			{
+				"name": "Arfi Triawan",
+				"type": "DP",
+				"membership": "",
+				"department": "Ketua DP",
+				"img": "arfi.png",
+				"bio": "Manusia yang kepribadiannya adalah INFJ. Sedang menjalankan amanah sebagai nahkoda sebuah kapal yang namanya DP HIMARPL. Salam Viva Legislativa!",
+				"sosmed": [
+					{
+						"label": "Instagram",
+						"url": "https://www.instagram.com/arfitriawan19"
+					},
+					{
+						"label": "Twitter",
+						"url": "https://twitter.com/pakkaem"
+					}
+				]
+			},
+			{
+				"name": "Fikri Habib Ramadhan",
+				"type": "DP",
+				"membership": "",
+				"department": "Wakil Ketua DP",
+				"img": "fikrihabib.png",
+				"bio": "HIDUP SEPERTI LARRY<br>by : Patrick",
+				"sosmed": [
+					{
+						"label": "Instagram",
+						"url": "https://www.instagram.com/fikri_ebod/"
+					}
+				]
+			}
+		]
+	},
+	{
+		"department-name": "Sekretaris",
+		"members": [
+			{
+				"name": "Nika Qisty Fatharani",
+				"type": "DP",
+				"membership": "",
+				"department": "Sekretaris 1 DP",
+				"img": "nika.png",
+				"bio": "Hello World",
+				"sosmed": [
+					{
+						"label": "Instagram",
+						"url": "https://www.instagram.com/nikaaqisty"
+					}
+				]
+			},
+			{
+				"name": "Afwa Afini",
+				"type": "DP",
+				"membership": "",
+				"department": "Sekretaris 2 DP",
+				"img": "afwa.png",
+				"bio": "",
+				"sosmed": [
+					{
+						"label": "Instagram",
+						"url": "https://www.instagram.com/fwaafnn"
+					}
+				]
+			}
+		]
+	},
+	{
+		"department-name": "Badan Keuangan",
+		"members": [
+			{
+				"name": "Balqis Aqilah Syahira",
+				"type": "DP",
+				"membership": "Ketua",
+				"department": "Badan Keuangan",
+				"img": "balqis.png",
+				"bio": "Chill",
+				"sosmed": [
+					{
+						"label": "Instagram",
+						"url": "https://www.instagram.com/balqisalsya"
+					}
+				]
+			},
+			{
+				"name": "Fahriza Harits",
+				"type": "DP",
+				"membership": "Staff",
+				"department": "Badan Keuangan",
+				"img": "fahriza.png",
+				"bio": "Perkenalkan nama saya harits hobi saya futsal dan traveling berumur 19 tahun",
+				"sosmed": [
+					{
+						"label": "Instagram",
+						"url": "https://www.instagram.com/fahharits04"
+					}
+				]
+			},
+			{
+				"name": "Nassya Putri Riyani",
+				"type": "DP",
+				"membership": "Staff",
+				"department": "Badan Keuangan",
+				"img": "nassya.png",
+				"bio": "Always doing good. It'll come back to you in unexpected ways <3",
+				"sosmed": [
+					{
+						"label": "Instagram",
+						"url": "https://www.instagram.com/nassyapr"
+					}
+				]
+			}
+		]
+	},
+	{
+		"department-name": "Badan Legislasi",
+		"members": [
+			{
+				"name": "Fathoni Zikri Nugroho",
+				"type": "DP",
+				"membership": "Ketua",
+				"department": "Badan Legislasi",
+				"img": "fathoni.png",
+				"bio": "17.32",
+				"sosmed": [
+					{
+						"label": "Instagram",
+						"url": "https://www.instagram.com/fathonizkr"
+					}
+				]
+			},
+			{
+				"name": "Fikri Arif Rahman",
+				"type": "DP",
+				"membership": "Staff",
+				"department": "Badan Legislasi",
+				"img": "fikriarif.png",
+				"bio": "Visca Barca i Visca Catalunya",
+				"sosmed": [
+					{
+						"label": "Instagram",
+						"url": "https://www.instagram.com/fikri_arif "
+					},
+					{
+						"label": "Tiktok",
+						"url": "https://www.tiktok.com/fikri_aryf"
+					}
+				]
+			},
+			{
+				"name": "Jodi Setiawan",
+				"type": "DP",
+				"membership": "Staff",
+				"department": "Badan Legislasi",
+				"img": "jodi.png",
+				"bio": "Suka banget mikir, tapi mikirin yang ga penting",
+				"sosmed": [
+					{
+						"label": "Instagram",
+						"url": "https://www.instagram.com/jdi.21"
+					}
+				]
+			}
+		]
+	},
+	{
+		"department-name": "BURTA",
+		"members": [
+			{
+				"name": "Rony Wahyu Utama",
+				"type": "DP",
+				"membership": "Ketua",
+				"department": "BURTA",
+				"img": "rony.png",
+				"bio": "Hello grandchild! your grandpa was here!",
+				"sosmed": [
+					{
+						"label": "Instagram",
+						"url": "https://www.instagram.com/ronywahyuu"
+					},
+					{
+						"label": "Twitter",
+						"url": "https://twitter.com/ronywahyuu"
+					}
+				]
+			},
+			{
+				"name": "Aditya Syawal Pratama",
+				"type": "DP",
+				"membership": "Staff",
+				"department": "BURTA",
+				"img": "aditya.png",
+				"bio": "INFP yang suka tidur, family friendly, dan punya cita-cita pergi ke isekai.",
+				"sosmed": [
+					{
+						"label": "Instagram",
+						"url": "https://www.instagram.com/dit_aspd"
+					}
+				]
+			},
+			{
+				"name": "Farrel Fadilah Sanan",
+				"type": "DP",
+				"membership": "Staff",
+				"department": "BURTA",
+				"img": "farrel.png",
+				"bio": "Aku Farrel Fadilah, kalian bisa panggil aku Farrel atau Parel juga gapapa.",
+				"sosmed": [
+					{
+						"label": "Instagram",
+						"url": "https://www.instagram.com/sexonsonicc"
+					}
+				]
+			},
+			{
+				"name": "Muhammad Fakhri Robbani",
+				"type": "DP",
+				"membership": "Staff",
+				"department": "BURTA",
+				"img": "fakhri.png",
+				"bio": "Berjuang untuk menjadi lebih baik",
+				"sosmed": [
+					{
+						"label": "Instagram",
+						"url": "https://www.instagram.com/fak_fakhri"
+					}
+				]
+			}
+		]
+	},
+	{
+		"department-name": "Komisi 1",
+		"members": [
+			{
+				"name": "Reyhan Agus Priyatna",
+				"type": "DP",
+				"membership": "Ketua",
+				"department": "Komisi 1",
+				"img": "reyhan.png",
+				"bio": "Cah Cirebon yang hobi olahraga",
+				"sosmed": [
+					{
+						"label": "Instagram",
+						"url": "https://www.instagram.com/reyhan_priyatna"
+					}
+				]
+			},
+			{
+				"name": "Geiza Idham Robani",
+				"type": "DP",
+				"membership": "Staff",
+				"department": "Komisi 1",
+				"img": "geiza.png",
+				"bio": "Saya staff komisi 1 DP di HIMA RPL ",
+				"sosmed": [
+					{
+						"label": "Instagram",
+						"url": "https://www.instagram.com/idham.robani17"
+					}
+				]
+			},
+			{
+				"name": "Umar Abdul Aziz",
+				"type": "DP",
+				"membership": "Staff",
+				"department": "Komisi 1",
+				"img": "umar.png",
+				"bio": "Orang biasa",
+				"sosmed": [
+					{
+						"label": "Instagram",
+						"url": "https://www.instagram.com/umar_a_aziz"
+					}
+				]
+			}
+		]
+	},
+	{
+		"department-name": "Komisi 2",
+		"members": [
+			{
+				"name": "Muhammad Rafid Miftah F.",
+				"type": "DP",
+				"membership": "Ketua",
+				"department": "Komisi 2",
+				"img": "rafid.png",
+				"bio": "",
+				"sosmed": [
+					{
+						"label": "Instagram",
+						"url": "https://www.instagram.com/rafidmf/"
+					}
+				]
+			},
+			{
+				"name": "Aiman Abdurrahman",
+				"type": "DP",
+				"membership": "Staff",
+				"department": "Komisi 2",
+				"img": "aiman.png",
+				"bio": "I'm the exception",
+				"sosmed": [
+					{
+						"label": "Instagram",
+						"url": "https://www.instagram.com/amn_abd1"
+					}
+				]
+			},
+			{
+				"name": "Fairus Salimi",
+				"type": "DP",
+				"membership": "Staff",
+				"department": "Komisi 2",
+				"img": "fairus.png",
+				"bio": "My name is fairus, you can call me uus",
+				"sosmed": [
+					{
+						"label": "Instagram",
+						"url": "https://www.instagram.com/fairuslmi_"
+					}
+				]
+			}
+		]
+	},
+	{
+		"department-name": "Komisi 3",
+		"members": [
+			{
+				"name": "Riyandi Firman Pratama",
+				"type": "DP",
+				"membership": "Ketua",
+				"department": "Komisi 3",
+				"img": "riyandi.png",
+				"bio": "Pengen jadi Thomas Shelby aja",
+				"sosmed": [
+					{
+						"label": "Instagram",
+						"url": "https://www.instagram.com/riyandifirma"
+					},
+					{
+						"label": "Github",
+						"url": "https://github.com/riyandifirman"
+					},
+					{
+						"label": "LinkedIn",
+						"url": "https://www.linkedin.com/in/riyandifirman"
+					}
+				]
+			},
+			{
+				"name": "Rizky Zain Fadhilah",
+				"type": "DP",
+				"membership": "Staff",
+				"department": "Komisi 3",
+				"img": "rizky.png",
+				"bio": "Saya Rizky Zain Fadhilah umur 18 tahun Agustus baru 19, tinggi saya 165 mungkin, kalau sikap orang lain yang menentukan Terima Kasih",
+				"sosmed": [
+					{
+						"label": "Instagram",
+						"url": "https://www.instagram.com/rizkyzainf"
+					}
+				]
+			},
+			{
+				"name": "Septian Dwi Putra Pradipta",
+				"type": "DP",
+				"membership": "Staff",
+				"department": "Komisi 3",
+				"img": "septian.png",
+				"bio": "Life is p2w so I play cracked.",
+				"sosmed": [
+					{
+						"label": "Instagram",
+						"url": "https://www.instagram.com/sptndpp"
+					}
+				]
+			}
+		]
+	}
+]

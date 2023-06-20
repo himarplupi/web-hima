@@ -15,7 +15,7 @@ const menuItems = [
     url: '/about',
   },
   {
-    name: '#KabinetExplora',
+    name: '#Kabinet',
     url: '/kabinet',
   },
 ];
@@ -24,7 +24,7 @@ const Navbar = () => {
   return (
     <header className="fixed z-50 md:absolute lg:top-7 lg:left-1/2 lg:-translate-x-2/4">
       <nav className="navbar bg-brand-footer text-white h-[50px] lg:w-[1000px] w-screen lg:rounded-lg flex px-6 py-8 justify-between items-center">
-        <Image src={logoMark} alt="Logo HIMARPL" width={150} height={50} />
+        <Image src={logoMark} alt="Logo HIMARPL" width={300} height={200} className="w-52 px-6 pl-0" />
 
         <Menu>
           <Menu.Button>

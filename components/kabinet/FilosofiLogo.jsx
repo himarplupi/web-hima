@@ -1,5 +1,5 @@
 import React from 'react';
-import { useKabinetContext } from '../logo/context/KabinetContext';
+import { useLogoContext as useKabinetContext } from '../logo/context/LogoContext';
 import LogoKabinet from '../logo/LogoKabinet';
 
 const FilosofiLogo = () => {

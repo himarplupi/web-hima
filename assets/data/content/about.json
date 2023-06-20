@@ -1,0 +1,58 @@
+{
+  "hero": {
+    "title": "Tentang Kami",
+    "description": "Himpunan Mahasiswa Rekayasa Perangkat Lunak"
+  },
+  "description": {
+    "title": "HIMARPL",
+    "description": "HIMARPL atau <strong>Himpunan Mahasiswa Rekayasa Perangkat Lunak</strong> dibentuk pada <time>14 Desember 2019</time> yang berada di Universitas Pendidikan Indonesia Kampus Daerah Cibiru, HIMARPL merupakan satu–satunya organisasi kemahasiswaan pada program studi rekayasa perangkat lunak. HIMARPL dibentuk pada saat mekanisme forum demokrasi tertinggi yaitu dalam musyawarah mahasiswa HIMARPL yang dihadiri oleh seluruh angkatan pertama program studi Rekayasa Perangkat Lunak."
+  },
+  "visimisi": [
+    {
+      "title": "Badan Eksekutif",
+      "visi": "Mewujudkan dan mengoptimalkan HIMA RPL yang kompetitif, unggul dan kreatif dengan menjunjung tinggi budaya kekeluargaan yang demokratis.",
+      "misi": [
+        "Harmonisasi Membangun budaya organisasi yang harmonis, professional dan berkomitmen.",
+        "Kader Menciptakan kader yang berjiwa kepemimpinan serta memiliki integritas.",
+        "Advokasi Memaksimalkan peran HIMA RPL dalam pelayanan advokasi yang  dinamis dalam upaya menyejahterakan mahasiswa prodi RPL.",
+        "Prestasi (Mikat) Menjadikan HIMA RPL sebagai wadah pengembangan minat bakat dan potensi mahasiswa prodi RPL",
+        "Internal-Eksternal Menjalin dan menjaga kerjasama baik dengan organ internal dan eksternal kampus."
+      ]
+    },
+    {
+      "title": "Dewan Perwakilan",
+      "visi": "Mewujudkan DP HIMA RPL yang bersinergi dengan berasaskan aspiratif serta sebagai lembaga yang eksplisit, professional dan fungsionalitas bagi civitas RPL",
+      "misi": [
+        "Menjalin kerjasama dengan pihak internal maupun pihak eksternal prodi.",
+        "Menampung aspirasi civitas RPL.",
+        "Melaksanakan tugas dan wewenang secara efektif.",
+        "Bertindak tegas dan transparan dalam fungsi pengawasan."
+      ]
+    }
+  ],
+  "history": {
+    "title": "Sejarah HIMARPL",
+    "description": "Track record the kabinet of HIMARPL",
+    "kabinets": [
+      {
+        "name": "explora",
+        "image": "explora.png",
+        "priode": "21/22"
+      },
+      {
+        "name": "inspira",
+        "image": "inspira.png",
+        "priode": "20/21"
+      },
+      {
+        "name": "initiator",
+        "image": "inspira.png",
+        "priode": "19/20"
+      }
+    ]
+  },
+  "join": {
+    "title": "Join with HIMARPL",
+    "description": "Kami membuka kesempatan bagi mahasiswa/i yang ingin berkontribusi untuk mahasiswa Rekayasa Perangkat Lunak yang lebih baik."
+  }
+}

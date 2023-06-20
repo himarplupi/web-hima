@@ -1,0 +1,553 @@
+[
+	{
+		"department-name": "Pimpinan",
+		"members": [
+			{
+				"name": "Ali Aziz Fadillah",
+				"type": "BE",
+				"membership": "",
+				"department": "Ketua BE",
+				"img": "ali.png",
+				"bio": "Kamu bisa merancang, membuat, dan membangun tempat paling indah di dunia. Tapi dibutuhkan orang untuk mewujudkan mimpi itu menjadi kenyataan.",
+				"sosmed": [
+					{
+						"label": "Instagram",
+						"url": "https://www.instagram.com/alifadill/"
+					},
+					{
+						"label": "Twitter",
+						"url": "https://mobile.twitter.com/fvckabis"
+					}
+				]
+			},
+			{
+				"name": "Bagus Subagja",
+				"type": "BE",
+				"membership": "",
+				"department": "Wakil Ketua BE",
+				"img": "bagus.png",
+				"bio": "Software Engineering student who has high enthusiasm and motivation to continue learning!",
+				"sosmed": [
+					{
+						"label": "Instagram",
+						"url": "https://www.instagram.com/bagussubagjaa"
+					}
+				]
+			}
+		]
+	},
+	{
+		"department-name": "Sekeretaris",
+		"members": [
+			{
+				"name": "Suci Sukmawati",
+				"type": "BE|DP",
+				"membership": "",
+				"department": "Sekretaris 1 BE",
+				"img": "suci.png",
+				"bio": "Born to shine bright like NCT",
+				"sosmed": [
+					{
+						"label": "Instagram",
+						"url": "https://www.instagram.com/sucisukmawati_"
+					}
+				]
+			},
+			{
+				"name": "Siti Suci Wulandari",
+				"type": "BE|DP",
+				"membership": "",
+				"department": "Sekretaris 2 BE",
+				"img": "siti-suci.png",
+				"bio": "",
+				"sosmed": [
+					{
+						"label": "Instagram",
+						"url": "https://www.instagram.com/__ssucii/"
+					}
+				]
+			}
+		]
+	},
+	{
+		"department-name": "Bendahara",
+		"members": [
+			{
+				"name": "Azzahra Ayu Vahendra",
+				"type": "BE|DP",
+				"membership": "",
+				"department": "Bendahara 1",
+				"img": "azzahra.png",
+				"bio": "Find me in another place and time",
+				"sosmed": [
+					{
+						"label": "Instagram",
+						"url": "https://www.instagram.com/azzahraayu_aav/"
+					},
+					{
+						"label": "Tiktok",
+						"url": "https://www.tiktok.com/@zzhra.y"
+					}
+				]
+			},
+			{
+				"name": "Fakhra Aufia Yumna Munawar",
+				"type": "BE|DP",
+				"membership": "",
+				"department": "Bendahara 2",
+				"img": "fakhra.png",
+				"bio": "Mahasiswa yang antusias dan bermotivasi tinggi untuk mengembangkan diri. Berpengalaman dalam berbagai kepanitiaan dan organisasi internal kampus maupun eksternal. ",
+				"sosmed": [
+					{
+						"label": "Instagram",
+						"url": "https://www.instagram.com/fakhraufia"
+					}
+				]
+			}
+		]
+	},
+	{
+		"department-name": "KOMINFO",
+		"members": [
+			{
+				"name": "Rifqi Fauzi Ramadhani",
+				"type": "BE",
+				"membership": "Ketua",
+				"department": "KOMINFO",
+				"img": "fauzi.png",
+				"bio": "one and only",
+				"sosmed": [
+					{
+						"label": "Instagram",
+						"url": "https://www.instagram.com/paujiee"
+					}
+				]
+			},
+			{
+				"name": "Akbar Mahmudin",
+				"type": "BE",
+				"membership": "Staff",
+				"department": "KOMINFO",
+				"img": "akbar.png",
+				"bio": "Manusia transparan",
+				"sosmed": [
+					{
+						"label": "Instagram",
+						"url": "https://www.instagram.com/akbarmahmudin7/"
+					},
+					{
+						"label": "LinkedIn",
+						"url": "https://www.linkedin.com/in/akbar-mahmudin"
+					},
+					{
+						"label": "Github",
+						"url": "https://github.com/AkbarMahmudin"
+					}
+				]
+			},
+			{
+				"name": "Audy Shafa Firdasha",
+				"type": "BE",
+				"membership": "Staff",
+				"department": "KOMINFO",
+				"img": "audy.png",
+				"bio": "Yang terbaik bagi kita akan datang pada waktunya",
+				"sosmed": [
+					{
+						"label": "Instagram",
+						"url": "https://www.instagram.com/audyshafa"
+					},
+					{
+						"label": "Tiktok",
+						"url": "https://www.tiktok.com/@audyshafa"
+					}
+				]
+			},
+			{
+				"name": "Salman Rachmawan",
+				"type": "BE",
+				"membership": "Staff",
+				"department": "KOMINFO",
+				"img": "salman.png",
+				"bio": "Seorang manusia yang berusaha menjadi manusia. Bisa intorvert ataupun ekstrovert. Hobinya ngedit, ngegame, ngeanime, dan ngebasket. Yang mau order vector boleh DM lewat instagram ataupun whatsapp. Hatur Nuhun ^^",
+				"sosmed": [
+					{
+						"label": "Instagram",
+						"url": "https://www.instagram.com/salmanrach30/"
+					},
+					{
+						"label": "Instagram",
+						"url": "https://www.instagram.com/sachart30/"
+					}
+				]
+			},
+			{
+				"name": "Ramaditya Firdaus",
+				"type": "BE",
+				"membership": "Staff",
+				"department": "KOMINFO",
+				"img": "ramaditya.png",
+				"bio": "Mahasiswa program sudi Rekayasa Perangkat Lunak angkatan 2021. ",
+				"sosmed": [
+					{
+						"label": "Instagram",
+						"url": "https://www.instagram.com/rmdtya_com"
+					}
+				]
+			}
+		]
+	},
+	{
+		"department-name": "PSDO",
+		"members": [
+			{
+				"name": "Faaris Muda Dwi Nugraha",
+				"type": "BE",
+				"membership": "Ketua",
+				"department": "PSDO",
+				"img": "faaris.png",
+				"bio": "Every morning I take a expresso with chocolate",
+				"sosmed": [
+					{
+						"label": "Instagram",
+						"url": "https://www.instagram.com/faarismdn"
+					}
+				]
+			},
+			{
+				"name": "Calzy Akmal Indyramdhani",
+				"type": "BE",
+				"membership": "Staff",
+				"department": "PSDO",
+				"img": "calzy.png",
+				"bio": "Hang out, chill out, cum laude",
+				"sosmed": [
+					{
+						"label": "Instagram",
+						"url": "https://www.instagram.com/calzkmal"
+					}
+				]
+			},
+			{
+				"name": "Cherry Adya Zahra",
+				"type": "BE",
+				"membership": "Staff",
+				"department": "PSDO",
+				"img": "cherry.png",
+				"bio": "",
+				"sosmed": [
+					{
+						"label": "Instagram",
+						"url": "https://www.instagram.com/cherrybie_/"
+					}
+				]
+			},
+			{
+				"name": "Muhammad Faja Tirta Sumirta",
+				"type": "BE",
+				"membership": "Staff",
+				"department": "PSDO",
+				"img": "faja.png",
+				"bio": "Santai aja kali ya",
+				"sosmed": [
+					{
+						"label": "Instagram",
+						"url": "https://www.instagram.com/fajasumitra"
+					}
+				]
+			},
+			{
+				"name": "Willy Wijaya Kusumah",
+				"type": "BE",
+				"membership": "Staff",
+				"department": "PSDO",
+				"img": "willy.png",
+				"bio": "Saya selalu belajar dari kesalahan orang lain yang menerima saran saya",
+				"sosmed": [
+					{
+						"label": "Instagram",
+						"url": "https://www.instagram.com/cigarettessweetzzz"
+					}
+				]
+			}
+		]
+	},
+	{
+		"department-name": "Advokasi & Kajian Strategis",
+		"members": [
+			{
+				"name": "Rangga Kalam Sidiq",
+				"type": "BE",
+				"membership": "Ketua",
+				"department": "Advokasi dan Kajian Strategis",
+				"img": "rangga.png",
+				"bio": "Ikan berenang di laut",
+				"sosmed": [
+					{
+						"label": "Instagram",
+						"url": "https://www.instagram.com/ranggakals/"
+					}
+				]
+			},
+			{
+				"name": "Hanisah Fildza Annafisah",
+				"type": "BE",
+				"membership": "Staff",
+				"department": "Advokasi dan Kajian Strategis",
+				"img": "hanisah.png",
+				"bio": "an INFJ",
+				"sosmed": [
+					{
+						"label": "Instagram",
+						"url": "https://www.instagram.com/Fildzaanf"
+					}
+				]
+			},
+			{
+				"name": "M. Nabil Furqon",
+				"type": "BE",
+				"membership": "Staff",
+				"department": "Advokasi dan Kajian Strategis",
+				"img": "nabil.png",
+				"bio": "Suka nonton anime tapi bukan wibu",
+				"sosmed": [
+					{
+						"label": "Instagram",
+						"url": "https://www.instagram.com/mnblfrqn/"
+					},
+					{
+						"label": "Twitter",
+						"url": "https://twitter.com/uqon_kun"
+					}
+				]
+			},
+			{
+				"name": "Utari Regiyanti Ramadani",
+				"type": "BE",
+				"membership": "Staff",
+				"department": "Advokasi dan Kajian Strategis",
+				"img": "utari.png",
+				"bio": "Saya Utari Regiyanti Ramadani mahasiswa Rekayasa Perangkat Lunak angkatan 2021. Memiliki ketertarikan untuk mencari kesempatan dalam mengembangkan kemampuan di bidang IT. Merupakan individu yang memiliki antusias dan motivasi yang tinggi.",
+				"sosmed": [
+					{
+						"label": "Instagram",
+						"url": "https://www.instagram.com/utariregiyantr"
+					},
+					{
+						"label": "Tiktok",
+						"url": "https://www.tiktok.com/@u.tarrri"
+					}
+				]
+			}
+		]
+	},
+	{
+		"department-name": "Pengembangan Diri",
+		"members": [
+			{
+				"name": "Arif Rahman Pamungkas",
+				"type": "BE",
+				"membership": "Ketua",
+				"department": "Pengembangan Diri",
+				"img": "arif.png",
+				"bio": "Pamungkas tapi bukan penendang bola dan bukan to the bone",
+				"sosmed": [
+					{
+						"label": "Instagram",
+						"url": "https://www.instagram.com/arifrahp"
+					},
+					{
+						"label": "Twitter",
+						"url": "https://twitter.com/uqon_kun/arifrahp"
+					},
+					{
+						"label": "Tiktok",
+						"url": "https://www.tiktok.com/@arifrahp"
+					}
+				]
+			},
+			{
+				"name": "Fabrizio Malika",
+				"type": "BE",
+				"membership": "Staff",
+				"department": "Pengembangan Diri",
+				"img": "fabrizio.png",
+				"bio": "Currently in warfare called \"College Life\"",
+				"sosmed": [
+					{
+						"label": "Instagram",
+						"url": "https://www.instagram.com/fabriziomalika"
+					},
+					{
+						"label": "Line",
+						"url": "https://line.me/ti/p/riIxomhOSN"
+					}
+				]
+			},
+			{
+				"name": "Ghifarialdhy Rachmansyah N.",
+				"type": "BE",
+				"membership": "Staff",
+				"department": "Pengembangan Diri",
+				"img": "ghifarialdhy.png",
+				"bio": "",
+				"sosmed": [
+					{
+						"label": "Instagram",
+						"url": "https://www.instagram.com/ghifarialdhy/"
+					}
+				]
+			},
+			{
+				"name": "Iman Nurohman",
+				"type": "BE",
+				"membership": "Staff",
+				"department": "Pengembangan Diri",
+				"img": "iman.png",
+				"bio": "Sipp",
+				"sosmed": [
+					{
+						"label": "Instagram",
+						"url": "https://www.instagram.com/imannrhman"
+					}
+				]
+			},
+			{
+				"name": "Muhammad Lutfi Raka Wibowo",
+				"type": "BE",
+				"membership": "Staff",
+				"department": "Pengembangan Diri",
+				"img": "lutfi.png",
+				"bio": "Mahasiswa ambis banget pokonya",
+				"sosmed": [
+					{
+						"label": "Instagram",
+						"url": "https://www.instagram.com/lutfiraka_"
+					}
+				]
+			}
+		]
+	},
+	{
+		"department-name": "PPM",
+		"members": [
+			{
+				"name": "Irham Nur Alim",
+				"type": "BE",
+				"membership": "Ketua",
+				"department": "PPM",
+				"img": "irham.png",
+				"bio": "Hmm apa ya?🤔",
+				"sosmed": [
+					{
+						"label": "Instagram",
+						"url": "https://www.instagram.com/inurai21"
+					}
+				]
+			},
+			{
+				"name": "Nurazmi Dhimas Azizah",
+				"type": "BE",
+				"membership": "Staff",
+				"department": "PPM",
+				"img": "nurazmi.png",
+				"bio": "Halo! saya Nurazmi Dhimas Azizah, biasa dipanggil Azmi. Mahasiswa Rekayasa Perangkat Lunak angkatan 2021 yang antusias dan bermotivasi tinggi dengan inisiatif, dan mencari tantangan baru.",
+				"sosmed": [
+					{
+						"label": "Instagram",
+						"url": "https://www.instagram.com/mii.azmii/"
+					}
+				]
+			},
+			{
+				"name": "Rafi Raihan",
+				"type": "BE",
+				"membership": "Staff",
+				"department": "PPM",
+				"img": "rafi.png",
+				"bio": "Saya, Rafi Raihan mahasiswa rekayasa perangkat lunak semester 3. Saya mudah untuk beradaptasi pada lingkungan yang baru dan saya suka dengan tantangan maka dari itu saya suka untuk melakukan suatu hal yang baru bagi saya. Saya berkomitmen untuk menjadi lebih baik dari waktu ke waktu.",
+				"sosmed": [
+					{
+						"label": "Instagram",
+						"url": "https://www.instagram.com/_rafiraihan"
+					}
+				]
+			},
+			{
+				"name": "Syifa Nur Pratiwi",
+				"type": "BE",
+				"membership": "Staff",
+				"department": "PPM",
+				"img": "syifa.png",
+				"bio": "Saya seorang mahasiswi dari Kampus UPI Cibiru dengan Jurusan Rekayasa Perangkat Lunak. Menggambar dan membuat sesuatu yang unik merupakan salah satu hobi saya sedari kecil. Selalu merasa tidak puas merupakan kelebihan dan sekaligus kekurangan yang saya miliki.",
+				"sosmed": [
+					{
+						"label": "Instagram",
+						"url": "https://www.instagram.com/syifanp_04"
+					}
+				]
+			}
+		]
+	},
+	{
+		"department-name": "Ekonomi Kreatif",
+		"members": [
+			{
+				"name": "Bagus Syamsu Rahmatullah",
+				"type": "BE",
+				"membership": "Ketua",
+				"department": "Ekraf",
+				"img": "syamsu.png",
+				"bio": "Kang Kopi",
+				"sosmed": [
+					{
+						"label": "Instagram",
+						"url": "https://www.instagram.com/bagus_syr"
+					}
+				]
+			},
+			{
+				"name": "Genta Alima Persada",
+				"type": "BE",
+				"membership": "Staff",
+				"department": "Ekraf",
+				"img": "genta.png",
+				"bio": "Mencoba untuk menjadi orang yang lebih baik dari hari ke harinya dan bisa berguna untuk lingkungan sekitarnya.",
+				"sosmed": [
+					{
+						"label": "Instagram",
+						"url": "https://www.instagram.com/persda_gnta22"
+					}
+				]
+			},
+			{
+				"name": "Muhammad Athif Fadlurahman",
+				"type": "BE",
+				"membership": "Staff",
+				"department": "Ekraf",
+				"img": "athif.png",
+				"bio": "Saya itu seorang. Saya aslinya dua orang",
+				"sosmed": [
+					{
+						"label": "Instagram",
+						"url": "https://www.instagram.com/athif_fadl"
+					}
+				]
+			},
+			{
+				"name": "Reihan Manzis Syahputra",
+				"type": "BE",
+				"membership": "Staff",
+				"department": "Ekraf",
+				"img": "manzis.png",
+				"bio": "Hidup Seperti Larry",
+				"sosmed": [
+					{
+						"label": "Instagram",
+						"url": "https://github.com/reihanmanzis"
+					}
+				]
+			}
+		]
+	}
+]

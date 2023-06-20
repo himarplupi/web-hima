@@ -1,51 +1,20 @@
 import React from 'react';
 import { Disclosure, Transition } from '@headlessui/react';
+import Image from 'next/image';
 
-const visiMisiContent = {
-  badanEksekutif: {
-    visi: `Mewujudkan dan mengoptimalkan HIMA RPL yang kompetitif, unggul dan kreatif dengan menjunjung tinggi budaya kekeluargaan yang demokratis.`,
-    misi: [
-      `Harmonisasi Membangun budaya organisasi yang harmonis, professional dan berkomitmen.`,
-      `Kader Menciptakan kader yang berjiwa kepemimpinan serta memiliki integritas.`,
-      `Advokasi Memaksimalkan peran HIMA RPL dalam pelayanan advokasi yang  dinamis dalam upaya menyejahterakan mahasiswa prodi RPL.`,
-      `Prestasi (Mikat) Menjadikan HIMA RPL sebagai wadah pengembangan minat bakat dan potensi mahasiswa prodi RPL`,
-      `Internal-Eksternal Menjalin dan menjaga kerjasama baik dengan organ internal dan eksternal kampus.`,
-    ],
-  },
-  dewanPerwakilan: {
-    visi: `Mewujudkan DP HIMA RPL yang bersinergi dengan berasaskan aspiratif serta sebagai lembaga yang eksplisit, professional dan fungsionalitas bagi civitas RPL`,
-    misi: [
-      `Menjalin kerjasama dengan pihak internal maupun pihak eksternal prodi.`,
-      `Menampung aspirasi civitas RPL.`,
-      `Melaksanakan tugas dan wewenang secara efektif.`,
-      `Bertindak tegas dan transparan dalam fungsi pengawasan.`,
-    ],
-  },
-};
+import VisiMisiImage from '../../assets/image/illustrations/visi-misi.png';
 
 const VisiMisiContent = ({ division }) => {
-  let type;
-  let title;
-
-  if (division.toLowerCase() === 'be') {
-    type = 'badanEksekutif';
-    title = 'Badan Eksekutif';
-  } else {
-    type = 'dewanPerwakilan';
-    title = 'Dewan Perwakilan';
-  }
-
-  const { visi, misi = [] } = visiMisiContent[type];
   return (
     <Disclosure as="div" className="mb-2 transition ease-in-out">
       {({ open }) => (
         <>
           <Disclosure.Button
             as="div"
-            className="font-medium mb-4 text-lg cursor-pointer p-4 rounded-xl bg-white text-brand-footer"
+            className="font-medium mb-4 text-lg cursor-pointer p-6 rounded-xl bg-white text-brand-footer"
           >
-            <h3 className="flex flex-row justify-between">
-              <span>{title}</span>
+            <h3 className="flex flex-row justify-between opacity-70 font-semibold">
+              <span>{division?.title}</span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -72,11 +41,11 @@ const VisiMisiContent = ({ division }) => {
           >
             <Disclosure.Panel as="div" className="leading-8">
               <p>
-                <strong>Visi: </strong> {visi}
+                <strong>Visi: </strong> {division?.visi}
               </p>
               <p>
                 <strong>Misi: </strong>
-                {misi.map((misi, index) => `${index + 1}). ${misi} `)}
+                {division?.misi.map((misi, index) => `${index + 1}). ${misi} `)}
               </p>
             </Disclosure.Panel>
           </Transition>
@@ -86,12 +55,22 @@ const VisiMisiContent = ({ division }) => {
   );
 };
 
-const VisiMisi = () => {
+const VisiMisi = ({ content }) => {
   return (
     <div className="w-full px-5 py-[60px] rounded-[20px] bg-web-color-orange-gradient grid place-items-center">
-      <section className="section-3-content w-full flex flex-row justify-between items-center gap-x-[100px] xl:max-w-8xl">
+      <section className="section-3-content w-full flex flex-row justify-between items-center xl:max-w-8xl">
         {/* START: Illustration */}
-        <div className="bg-[#D9D9D9] w-[600px] h-[300px] rounded-[20px] lg:block hidden"></div>
+        {/* <div className="bg-[#D9D9D9] w-[600px] h-[300px] rounded-[20px] lg:block hidden"></div> */}
+        <div className='w-full sm:flex align-middle justify-center hidden'>
+          <Image
+            src={VisiMisiImage}
+            alt='Title'
+            priority
+            width={300}
+            height={300}
+            className='object-cover object-center'
+          />
+        </div>
         {/* END: Illustration */}
 
         {/* START: Content */}
@@ -102,8 +81,11 @@ const VisiMisi = () => {
             </h2>
 
             <div className="text-lg leading-[150%] space-y-4">
-              <VisiMisiContent division={'be'} />
-              <VisiMisiContent division={'dp'} />
+              {
+                content.map((division, index) => (
+                  <VisiMisiContent key={index} division={division} />
+                ))
+              }
             </div>
           </div>
         </div>

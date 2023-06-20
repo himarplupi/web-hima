@@ -1,25 +1,36 @@
 import React from 'react';
+import DescHimaRpl from '../../assets/image/illustrations/desc-himarpl.png';
+import Image from 'next/image';
 
-const Description = () => {
+const Description = ({ content }) => {
   return (
     <div className="w-full px-6 py-24 h-fit rounded-[20px] bg-web-color-light-gray grid place-items-center">
-      <section className="section-3-content w-full flex flex-row justify-between items-center gap-x-[100px] xl:max-w-8xl">
+      <section className="section-3-content w-full flex flex-row justify-between items-center xl:max-w-8xl">
         {/* START: Content */}
         <div className="w-full max-w-[716px] flex flex-col gap-y-[50px]">
           <div className="space-y-[30px] text-brand-footer">
             <h2 className="font-semibold text-4xl leading-[3.625rem]">
-              HIMARPL
+              {content?.title}
             </h2>
 
-            <p className="text-lg leading-[150%]">
-            HIMARPL atau <strong>Himpunan Mahasiswa Rekayasa Perangkat Lunak</strong> dibentuk pada <time>14 Desember 2019</time> yang berada di Universitas Pendidikan Indonesia Kampus Daerah Cibiru, HIMARPL merupakan satu –satunya organisasi kemahasiswaan pada program studi rekayasa perangkat lunak. HIMARPL dibentuk pada saat mekanisme forum demokrasi tertinggi yaitu dalam musyawarah mahasiswa HIMARPL yang dihadiri oleh seluruh angkatan pertama program studi Rekayasa Perangkat Lunak.
+            <p className="text-lg leading-[150%] opacity-70">
+              <span dangerouslySetInnerHTML={{__html: content?.description}}></span>
             </p>
           </div>
         </div>
         {/* END: Content */}
 
         {/* START: Illustration */}
-        <div className="bg-[#D9D9D9] w-[600px] h-[300px] rounded-[20px] lg:block hidden"></div>
+        <div className='w-full sm:flex align-middle justify-center hidden'>
+          <Image
+            src={DescHimaRpl}
+            alt='Title'
+            priority
+            width={500}
+            height={500}
+            className='object-cover object-center'
+          />
+        </div>
         {/* END: Illustration */}
       </section>
     </div>

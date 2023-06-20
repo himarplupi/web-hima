@@ -24,10 +24,11 @@ const WindowCard = ({
 
         {/* Window Card Image */}
         <Image
-          src={imageSrc}
+          src={`/images/contents/${imageSrc}`}
           alt='Title'
           priority
-          height={450}
+          width={1000}
+          height={1000}
           className='w-full object-cover object-center'
         />
       </div>

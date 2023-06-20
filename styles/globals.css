@@ -40,6 +40,18 @@ svg path {
   .logo-kabinet path {
     @apply hover:fill-brand-footer
   }
+
+}
+
+.swiper-scrollbar div:nth-child(1) {
+  display: none;
+}
+.swiper-scrollbar {
+  height: 2rem;
+}
+
+.swiper-wrapper {
+  margin-bottom: 1.5rem;
 }
 
 @media (prefers-color-scheme: white) {

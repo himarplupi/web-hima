@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import $ from 'jquery';
-import { useKabinetContext } from './context/KabinetContext';
+import { useLogoContext as useKabinetContext } from './context/LogoContext';
 
 const philosophyLogo = {
   letter: {
@@ -27,13 +27,13 @@ const philosophyLogo = {
 
 const LogoKabinet = () => {
   const { title, description } = useKabinetContext();
-
-  const handleLogoContent = (pathLogo) => {
-    title.setValue(philosophyLogo[pathLogo].title);
-    description.setValue(philosophyLogo[pathLogo].description);
-  };
-
+  
   useEffect(() => {
+    const handleLogoContent = (pathLogo) => {
+      title.setValue(philosophyLogo[pathLogo].title);
+      description.setValue(philosophyLogo[pathLogo].description);
+    };
+
     $('#logogram path').click(function () {
       $('path').css({
         fill: '#838383',
@@ -83,7 +83,7 @@ const LogoKabinet = () => {
         });
       }
     });
-  }, [handleLogoContent]);
+  }, [title, description]);
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
